@@ -1,0 +1,25 @@
+.sidebarChat{
+    display: flex;
+    padding: 20px;
+    cursor: pointer;
+    border-bottom: 1px solid #e76d3c;
+}
+a{
+    text-decoration: none !important;
+    color: rgb(29, 6, 2);
+}
+.sidebarChat:hover{
+    background-color: #d36e50;
+}
+.sidebarChat__info > h2 {
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+.sidebarChat__info {
+    margin-left: 15px;
+}
+.AddNewChat{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:rgb(158, 36, 5);
+    font-weight: 950;
+}
